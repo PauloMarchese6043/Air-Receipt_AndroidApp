@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#F3A500</color>
-    <color name="colorPrimaryDark">#5089F3</color>
-    <color name="colorAccent">#A651FC</color>
+    <color name="colorPrimaryDark">#F3A500</color>
+    <color name="colorAccent">#5089F3</color>
+
+    <color name="colorSlide_1">#F3A500</color>
+    <color name="colorSlide_2">#5089F3</color>
+
+    <color name="active_dots">#FFFAFA</color>
+    <color name="inactive_dots">#83878B</color>
+
 </resources>
