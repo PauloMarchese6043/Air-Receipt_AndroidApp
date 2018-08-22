@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Air-Receipt</string>
+
+    <!--Slide 1 Title and Description-->
+    <string name="slide_1_title">How to use?</string>
+    <string name="slide_1_desc">Tap phone on the smart device to receive you Receipt</string>
+
+    <string name="slide_2_title">Where is the Receipt?</string>
+    <string name="slide_2_desc">Whitin seconds the Receipt will be inside your application</string>
+
+    <string name="my_pref">How to use?</string>
+    <string name="my_pref_key">Tap phone on the smart device to receive you Receipt</string>
 </resources>
