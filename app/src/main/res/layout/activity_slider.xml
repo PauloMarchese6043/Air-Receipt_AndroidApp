@@ -32,4 +32,28 @@
         android:gravity="center"
         android:layout_marginBottom="55sp">
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@null"
+        android:id="@+id/bnSkip"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:id="@+id/bnNext"
+        android:layout_marginBottom="8dp"
+        android:textColor="@android:color/white"/>
 </RelativeLayout>
