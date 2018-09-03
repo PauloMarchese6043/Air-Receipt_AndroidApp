@@ -32,7 +32,8 @@ public class MpagerAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         View view = layoutInflater.inflate(layouts[position],container, false);
         container.addView(view);
-        return super.instantiateItem(container, position);
+        //return super.instantiateItem(container, position);
+        return view;
     }
 
     @Override

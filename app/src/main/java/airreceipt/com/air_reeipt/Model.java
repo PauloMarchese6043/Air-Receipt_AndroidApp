@@ -10,6 +10,7 @@ public class Model {
         this.store = store;
         this.price = price;
         this.icon = icon;
+
     }
 
     //getters

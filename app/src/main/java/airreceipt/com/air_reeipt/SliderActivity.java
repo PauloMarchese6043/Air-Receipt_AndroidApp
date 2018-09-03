@@ -89,6 +89,7 @@ public class SliderActivity extends AppCompatActivity implements View.OnClickLis
             dots = new ImageView[layouts.length];
 
             for (int i = 0; i<layouts.length; i++) {
+                dots[i] = new ImageView(getBaseContext());
                 if (i==current_position) {
                     dots[i].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.active_dots));
                 }
