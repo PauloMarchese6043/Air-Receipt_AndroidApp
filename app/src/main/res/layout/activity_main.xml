@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,7 +14,31 @@
         tools:listitem="@layout/activity_receipt_list_row"
         ></ListView>
 
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="280dp"
+        android:background="@drawable/add"
+        android:onClick="GoToNFCActivity" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/floating_action_button_fab_with_listview"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginBottom="16dp"-->
+        <!--android:layout_marginLeft="280dp"-->
+        <!--android:clickable="true"-->
+        <!--android:src="@drawable/add"-->
+        <!--app:elevation="4dp" />-->
 
 
 
-</LinearLayout>
+</FrameLayout>

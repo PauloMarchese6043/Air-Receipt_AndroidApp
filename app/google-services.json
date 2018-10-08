@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "99962601555",
+    "firebase_url": "https://moneytracker09.firebaseio.com",
+    "project_id": "moneytracker09",
+    "storage_bucket": "moneytracker09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99962601555:android:14770d559a49834f",
+        "android_client_info": {
+          "package_name": "airreceipt.com.air_reeipt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99962601555-8f8m7fbi2s7depipcpn1tmu0hp6eit1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "airreceipt.com.air_reeipt",
+            "certificate_hash": "f951edd32dcec28df22dd741afd65301ee9001dc"
+          }
+        },
+        {
+          "client_id": "99962601555-2v4pgk4iof44jff0cff78vle11qbiaua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7O4w-aPrzGOuvPB0k90ADFh0QxglbFcs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99962601555-2v4pgk4iof44jff0cff78vle11qbiaua.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "99962601555-uujacn70u4gl4o836ugfu55kvsd4hk4q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cindy.MoneyTracker"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
