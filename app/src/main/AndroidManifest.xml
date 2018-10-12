@@ -5,11 +5,12 @@
     <uses-sdk
         android:minSdkVersion="10"
         android:targetSdkVersion="19"/>
-
     <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.nfc" />
+    <!--<uses-permission android:name="android.permission.NFC" />-->
 
-    <uses-feature android:name="android.hardware.nfc"
-        android:required="false"/>
+    <!--<uses-feature android:name="android.hardware.nfc"-->
+        <!--android:required="false"/>-->
 
     <application
         android:allowBackup="true"
@@ -41,6 +42,8 @@
         <activity android:name=".ReceiptListRow" />
 
         <activity android:name=".NfcActivity" />
+
+        <!--<activity android:name=".TestFirebase" />-->
 
 
 

@@ -1,4 +1,7 @@
 package airreceipt.com.air_reeipt;
 
-public class Listener {
+public interface Listener {
+    void onDialogDisplayed();
+
+    void onDialogDismissed();
 }

@@ -41,12 +41,19 @@ public class NfcActivity extends AppCompatActivity {
 
         toggleBtn = (ToggleButton)findViewById(R.id.toggleBtn);
 
+
+        toggleBtn.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view) {
+                //OnCLick Stuff
+                txtTagContent.setText("");
+            }
+        });
         if (nfcAdapter != null && nfcAdapter.isEnabled()) {
-            Toast.makeText(this, "NFC not available", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "NFC available", Toast.LENGTH_LONG).show();
 
         }
         else {
-            Toast.makeText(this, "NFC Available", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "NFC not Available", Toast.LENGTH_LONG).show();
 //            finish();
 
         }
@@ -221,9 +228,11 @@ public class NfcActivity extends AppCompatActivity {
         return ndefMessage;
     }
 
-    private void tglReadWriteOnclick(View view) {
-        txtTagContent.setText("");
-    }
+//    private void tglReadWriteOnclick(View view) {
+//        txtTagContent.setText("");
+//    }
+
+
 
     public String getTextFromNdefRecord(NdefRecord ndefRecord) {
         String text = null;
